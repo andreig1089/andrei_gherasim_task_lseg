@@ -71,3 +71,4 @@ rm -rf venv
 - This is not ready for production.
 - Logs of the app are stored in the logs folder. Some of the warnings may appear in the log file.
 - In this solution, I tried to use native python modules as much as possible. Using pandas and numpy would have helped.
+- I used the GET method in the api. Normally if we generate data we would use POST, but since we do not send any data, GET works for this app too.
